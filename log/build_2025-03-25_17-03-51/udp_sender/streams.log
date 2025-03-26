@@ -1,0 +1,55 @@
+[0.015s] Invoking command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28
+[0.115s] [ 11%] [34m[1mAutomatic MOC and UIC for target udp_sender_node[0m
+[0.159s] [ 11%] Built target udp_sender_node_autogen
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target udp_sender_node[0m
+[0.248s] [ 22%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/main.cpp.o[0m
+[0.250s] [ 33%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/udp_sender_node_autogen/mocs_compilation.cpp.o[0m
+[0.251s] [ 44%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/mainwindow.cpp.o[0m
+[0.251s] [ 55%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/rgbd_ros_driver.cpp.o[0m
+[0.251s] [ 66%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o[0m
+[0.498s] In file included from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:1[m[K:
+[0.498s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/binaryparser.hpp:31:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.498s]    31 |     uint32_t [01;31m[Kframe_ID[m[K
+[0.498s]       |              [01;31m[K^~~~~~~~[m[K
+[0.498s]       |                      [32m[K;[m[K
+[0.558s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:[m[K In member function ‘[01m[Kvoid BinaryParser::assemble_frame()[m[K’:
+[0.559s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_frame_request[m[K’ was not declared in this scope
+[0.559s]    96 |     [01;31m[Ksend_frame_request[m[K();
+[0.559s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.667s] make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:132: CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o] Error 1
+[0.667s] make[2]: *** Waiting for unfinished jobs....
+[1.183s] In file included from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/rgbd_ros_driver.hpp:7[m[K,
+[1.183s]                  from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/rgbd_ros_driver.cpp:1[m[K:
+[1.184s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/binaryparser.hpp:31:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.184s]    31 |     uint32_t [01;31m[Kframe_ID[m[K
+[1.184s]       |              [01;31m[K^~~~~~~~[m[K
+[1.184s]       |                      [32m[K;[m[K
+[1.449s] In file included from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/rgbd_ros_driver.hpp:7[m[K,
+[1.450s]                  from [01m[K/home/ai/work/python/UDP/ros2_ws/build/udp_sender/udp_sender_node_autogen/UVLADIE3JM/../../../../src/udp_sender/src/mainwindow.hpp:5[m[K,
+[1.450s]                  from [01m[K/home/ai/work/python/UDP/ros2_ws/build/udp_sender/udp_sender_node_autogen/UVLADIE3JM/moc_mainwindow.cpp:9[m[K,
+[1.450s]                  from [01m[K/home/ai/work/python/UDP/ros2_ws/build/udp_sender/udp_sender_node_autogen/mocs_compilation.cpp:2[m[K:
+[1.450s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/binaryparser.hpp:31:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.450s]    31 |     uint32_t [01;31m[Kframe_ID[m[K
+[1.450s]       |              [01;31m[K^~~~~~~~[m[K
+[1.450s]       |                      [32m[K;[m[K
+[1.467s] In file included from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/rgbd_ros_driver.hpp:7[m[K,
+[1.468s]                  from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/mainwindow.hpp:5[m[K,
+[1.468s]                  from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/mainwindow.cpp:1[m[K:
+[1.468s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/binaryparser.hpp:31:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.468s]    31 |     uint32_t [01;31m[Kframe_ID[m[K
+[1.468s]       |              [01;31m[K^~~~~~~~[m[K
+[1.468s]       |                      [32m[K;[m[K
+[1.472s] make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:160: CMakeFiles/udp_sender_node.dir/src/rgbd_ros_driver.cpp.o] Error 1
+[1.516s] In file included from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/rgbd_ros_driver.hpp:7[m[K,
+[1.516s]                  from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/mainwindow.hpp:5[m[K,
+[1.516s]                  from [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/main.cpp:17[m[K:
+[1.516s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/include/udp_sender/binaryparser.hpp:31:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.516s]    31 |     uint32_t [01;31m[Kframe_ID[m[K
+[1.516s]       |              [01;31m[K^~~~~~~~[m[K
+[1.517s]       |                      [32m[K;[m[K
+[1.747s] make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:76: CMakeFiles/udp_sender_node.dir/udp_sender_node_autogen/mocs_compilation.cpp.o] Error 1
+[1.833s] make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:104: CMakeFiles/udp_sender_node.dir/src/mainwindow.cpp.o] Error 1
+[1.839s] make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:90: CMakeFiles/udp_sender_node.dir/src/main.cpp.o] Error 1
+[1.840s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/udp_sender_node.dir/all] Error 2
+[1.840s] make: *** [Makefile:146: all] Error 2
+[1.844s] Invoked command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28

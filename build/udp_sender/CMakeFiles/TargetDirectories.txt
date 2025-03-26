@@ -1,0 +1,11 @@
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/uninstall.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/udp_sender_uninstall.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/udp_sender_node.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/test.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/edit_cache.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/rebuild_cache.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/list_install_components.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/install.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/install/local.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/install/strip.dir
+/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/udp_sender_node_autogen.dir

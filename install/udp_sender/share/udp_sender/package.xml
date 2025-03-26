@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>udp_sender</name>
+  <version>0.0.0</version>
+  <description>UDP sender with Qt5 integration</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+  <!-- Boost는 일반적으로 시스템 라이브러리로 처리합니다. -->
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

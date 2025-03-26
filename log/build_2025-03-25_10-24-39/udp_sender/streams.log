@@ -1,0 +1,13 @@
+[0.021s] Invoking command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28
+[0.127s] [ 11%] [34m[1mAutomatic MOC and UIC for target udp_sender_node[0m
+[0.145s] 
+[0.146s] AutoGen error
+[0.146s] -------------
+[0.146s] Info error in info file
+[0.146s] "/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/udp_sender_node_autogen.dir/AutogenInfo.json":
+[0.146s] The header file "SRC:/src/mainwindow.hpp" does not exist.
+[0.146s] 
+[0.147s] make[2]: *** [CMakeFiles/udp_sender_node_autogen.dir/build.make:71: CMakeFiles/udp_sender_node_autogen] Error 1
+[0.147s] make[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/udp_sender_node_autogen.dir/all] Error 2
+[0.147s] make: *** [Makefile:146: all] Error 2
+[0.153s] Invoked command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28

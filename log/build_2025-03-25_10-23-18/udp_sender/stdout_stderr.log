@@ -1,0 +1,53 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ai/work/python/UDP/ros2_ws/build/udp_sender
+[ 11%] [34m[1mAutomatic MOC and UIC for target udp_sender_node[0m
+[ 11%] Built target udp_sender_node_autogen
+[ 22%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/udpclient.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/udp_sender_node_autogen/mocs_compilation.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/mainwindow.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/packet.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/rgbd_ros_driver.cpp.o[0m
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/packet.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kpacket.hpp: No such file or directory
+    1 | #include [01;31m[K"packet.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/udpclient.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kudpclient.hpp: No such file or directory
+    1 | #include [01;31m[K"udpclient.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:146: CMakeFiles/udp_sender_node.dir/src/packet.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/mainwindow.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmainwindow.hpp: No such file or directory
+    1 | #include [01;31m[K"mainwindow.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:118: CMakeFiles/udp_sender_node.dir/src/udpclient.cpp.o] Error 1
+make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:104: CMakeFiles/udp_sender_node.dir/src/mainwindow.cpp.o] Error 1
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/rgbd_ros_driver.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krgbd_ros_driver.hpp: No such file or directory
+    1 | #include [01;31m[K"rgbd_ros_driver.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbinaryparser.hpp: No such file or directory
+    1 | #include [01;31m[K"binaryparser.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:160: CMakeFiles/udp_sender_node.dir/src/rgbd_ros_driver.cpp.o] Error 1
+make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:132: CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o] Error 1
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/main.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kmainwindow.hpp: No such file or directory
+   17 | #include [01;31m[K"mainwindow.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:90: CMakeFiles/udp_sender_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/udp_sender_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

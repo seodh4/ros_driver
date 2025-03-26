@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28
+[0.111s] [ 11%] [34m[1mAutomatic MOC and UIC for target udp_sender_node[0m
+[0.154s] [ 11%] Built target udp_sender_node_autogen
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target udp_sender_node[0m
+[0.244s] [ 22%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o[0m
+[0.858s] [ 33%] [32m[1mLinking CXX executable udp_sender_node[0m
+[1.338s] [100%] Built target udp_sender_node
+[1.353s] Invoked command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28
+[1.379s] Invoking command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ai/work/python/UDP/ros2_ws/build/udp_sender
+[1.392s] -- Install configuration: ""
+[1.392s] -- Installing: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/lib/udp_sender/udp_sender_node
+[1.393s] -- Set runtime path of "/home/ai/work/python/UDP/ros2_ws/install/udp_sender/lib/udp_sender/udp_sender_node" to ""
+[1.394s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/ament_index/resource_index/package_run_dependencies/udp_sender
+[1.394s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/ament_index/resource_index/parent_prefix_path/udp_sender
+[1.394s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/environment/ament_prefix_path.sh
+[1.395s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/environment/ament_prefix_path.dsv
+[1.395s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/environment/path.sh
+[1.395s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/environment/path.dsv
+[1.395s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/local_setup.bash
+[1.395s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/local_setup.sh
+[1.395s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/local_setup.zsh
+[1.395s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/local_setup.dsv
+[1.396s] -- Installing: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/package.dsv
+[1.396s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/ament_index/resource_index/packages/udp_sender
+[1.396s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/cmake/udp_senderConfig.cmake
+[1.396s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/cmake/udp_senderConfig-version.cmake
+[1.396s] -- Up-to-date: /home/ai/work/python/UDP/ros2_ws/install/udp_sender/share/udp_sender/package.xml
+[1.399s] Invoked command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ai/work/python/UDP/ros2_ws/build/udp_sender

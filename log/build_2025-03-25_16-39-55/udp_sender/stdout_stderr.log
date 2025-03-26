@@ -1,0 +1,27 @@
+[ 11%] [34m[1mAutomatic MOC and UIC for target udp_sender_node[0m
+[ 11%] Built target udp_sender_node_autogen
+[35m[1mConsolidate compiler generated dependencies of target udp_sender_node[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o[0m
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:[m[K In member function ‘[01m[Kvoid BinaryParser::process_packet(const std::vector<unsigned char>&)[m[K’:
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:74:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kassemble_frame[m[K’ was not declared in this scope
+   74 |                 [01;31m[Kassemble_frame[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:[m[K In function ‘[01m[Kvoid assemble_frame()[m[K’:
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:88:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_packets_expected_[m[K’ was not declared in this scope
+   88 |     for (uint32_t i = 0; i < [01;31m[Ktotal_packets_expected_[m[K; i++) {
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:89:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_packets_[m[K’ was not declared in this scope
+   89 |         auto it = [01;31m[Kreceived_packets_[m[K.find(i);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:94:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_frame_ID_[m[K’ was not declared in this scope
+   94 |     std::cout << "프레임 " << [01;31m[Kcurrent_frame_ID_[m[K << " 조합 완료, 사이즈: " << frame_data.size() << " bytes.\n";
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:95:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_packets_[m[K’ was not declared in this scope
+   95 |     [01;31m[Kreceived_packets_[m[K.clear();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_frame_request[m[K’ was not declared in this scope
+   96 |     [01;31m[Ksend_frame_request[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:132: CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/udp_sender_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

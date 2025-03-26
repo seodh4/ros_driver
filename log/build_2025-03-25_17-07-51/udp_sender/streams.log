@@ -1,0 +1,13 @@
+[0.016s] Invoking command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28
+[0.125s] [ 11%] [34m[1mAutomatic MOC and UIC for target udp_sender_node[0m
+[0.167s] [ 11%] Built target udp_sender_node_autogen
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target udp_sender_node[0m
+[0.265s] [ 22%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o[0m
+[0.599s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:[m[K In member function ‘[01m[Kvoid BinaryParser::assemble_frame()[m[K’:
+[0.599s] [01m[K/home/ai/work/python/UDP/ros2_ws/src/udp_sender/src/binaryparser.cpp:95:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+[0.599s]    95 |     callback_([01;31m[Kdata[m[K);
+[0.599s]       |               [01;31m[K^~~~[m[K
+[0.704s] make[2]: *** [CMakeFiles/udp_sender_node.dir/build.make:132: CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o] Error 1
+[0.704s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/udp_sender_node.dir/all] Error 2
+[0.704s] make: *** [Makefile:146: all] Error 2
+[0.709s] Invoked command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28
