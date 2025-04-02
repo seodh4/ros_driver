@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ai/work/python/UDP/ros2_ws/src/udp_sender
+CMAKE_SOURCE_DIR = /home/ai/work/python/UDP/ros_driver/src/udp_sender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ai/work/python/UDP/ros2_ws/build/udp_sender
+CMAKE_BINARY_DIR = /home/ai/work/python/UDP/ros_driver/build/udp_sender
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ai/work/python/UDP/ros2_ws/build/udp_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ai/work/python/UDP/ros2_ws/src/udp_sender /home/ai/work/python/UDP/ros2_ws/src/udp_sender /home/ai/work/python/UDP/ros2_ws/build/udp_sender /home/ai/work/python/UDP/ros2_ws/build/udp_sender /home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ai/work/python/UDP/ros_driver/build/udp_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ai/work/python/UDP/ros_driver/src/udp_sender /home/ai/work/python/UDP/ros_driver/src/udp_sender /home/ai/work/python/UDP/ros_driver/build/udp_sender /home/ai/work/python/UDP/ros_driver/build/udp_sender /home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

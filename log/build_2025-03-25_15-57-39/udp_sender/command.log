@@ -1,4 +1,0 @@
-Invoking command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28
-Invoked command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ai/work/python/UDP/ros2_ws/build/udp_sender -- -j28 -l28
-Invoking command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ai/work/python/UDP/ros2_ws/build/udp_sender
-Invoked command in '/home/ai/work/python/UDP/ros2_ws/build/udp_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ai/work/python/UDP/ros2_ws/build/udp_sender

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ai/work/python/UDP/ros2_ws/src/udp_sender
+CMAKE_SOURCE_DIR = /home/ai/work/python/UDP/ros_driver/src/udp_sender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ai/work/python/UDP/ros2_ws/build/udp_sender
+CMAKE_BINARY_DIR = /home/ai/work/python/UDP/ros_driver/build/udp_sender
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles /home/ai/work/python/UDP/ros2_ws/build/udp_sender//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles /home/ai/work/python/UDP/ros_driver/build/udp_sender//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -210,19 +210,6 @@ udp_sender_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/build
 .PHONY : udp_sender_node/fast
 
-#=============================================================================
-# Target rules for targets named udp_sender_node_autogen
-
-# Build rule for target.
-udp_sender_node_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_sender_node_autogen
-.PHONY : udp_sender_node_autogen
-
-# fast build rule for target.
-udp_sender_node_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node_autogen.dir/build.make CMakeFiles/udp_sender_node_autogen.dir/build
-.PHONY : udp_sender_node_autogen/fast
-
 src/binaryparser.o: src/binaryparser.cpp.o
 .PHONY : src/binaryparser.o
 
@@ -270,30 +257,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/mainwindow.o: src/mainwindow.cpp.o
-.PHONY : src/mainwindow.o
-
-# target to build an object file
-src/mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/src/mainwindow.cpp.o
-.PHONY : src/mainwindow.cpp.o
-
-src/mainwindow.i: src/mainwindow.cpp.i
-.PHONY : src/mainwindow.i
-
-# target to preprocess a source file
-src/mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/src/mainwindow.cpp.i
-.PHONY : src/mainwindow.cpp.i
-
-src/mainwindow.s: src/mainwindow.cpp.s
-.PHONY : src/mainwindow.s
-
-# target to generate assembly for a file
-src/mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/src/mainwindow.cpp.s
-.PHONY : src/mainwindow.cpp.s
 
 src/packet.o: src/packet.cpp.o
 .PHONY : src/packet.o
@@ -367,30 +330,6 @@ src/udpclient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/src/udpclient.cpp.s
 .PHONY : src/udpclient.cpp.s
 
-udp_sender_node_autogen/mocs_compilation.o: udp_sender_node_autogen/mocs_compilation.cpp.o
-.PHONY : udp_sender_node_autogen/mocs_compilation.o
-
-# target to build an object file
-udp_sender_node_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/udp_sender_node_autogen/mocs_compilation.cpp.o
-.PHONY : udp_sender_node_autogen/mocs_compilation.cpp.o
-
-udp_sender_node_autogen/mocs_compilation.i: udp_sender_node_autogen/mocs_compilation.cpp.i
-.PHONY : udp_sender_node_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-udp_sender_node_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/udp_sender_node_autogen/mocs_compilation.cpp.i
-.PHONY : udp_sender_node_autogen/mocs_compilation.cpp.i
-
-udp_sender_node_autogen/mocs_compilation.s: udp_sender_node_autogen/mocs_compilation.cpp.s
-.PHONY : udp_sender_node_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-udp_sender_node_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_sender_node.dir/build.make CMakeFiles/udp_sender_node.dir/udp_sender_node_autogen/mocs_compilation.cpp.s
-.PHONY : udp_sender_node_autogen/mocs_compilation.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -404,7 +343,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... udp_sender_node_autogen"
 	@echo "... udp_sender_uninstall"
 	@echo "... uninstall"
 	@echo "... udp_sender_node"
@@ -414,9 +352,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/mainwindow.o"
-	@echo "... src/mainwindow.i"
-	@echo "... src/mainwindow.s"
 	@echo "... src/packet.o"
 	@echo "... src/packet.i"
 	@echo "... src/packet.s"
@@ -426,9 +361,6 @@ help:
 	@echo "... src/udpclient.o"
 	@echo "... src/udpclient.i"
 	@echo "... src/udpclient.s"
-	@echo "... udp_sender_node_autogen/mocs_compilation.o"
-	@echo "... udp_sender_node_autogen/mocs_compilation.i"
-	@echo "... udp_sender_node_autogen/mocs_compilation.s"
 .PHONY : help
 
 

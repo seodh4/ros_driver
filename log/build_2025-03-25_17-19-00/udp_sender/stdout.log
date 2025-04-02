@@ -1,4 +1,0 @@
-[ 11%] [34m[1mAutomatic MOC and UIC for target udp_sender_node[0m
-[ 11%] Built target udp_sender_node_autogen
-[35m[1mConsolidate compiler generated dependencies of target udp_sender_node[0m
-[ 22%] [32mBuilding CXX object CMakeFiles/udp_sender_node.dir/src/binaryparser.cpp.o[0m

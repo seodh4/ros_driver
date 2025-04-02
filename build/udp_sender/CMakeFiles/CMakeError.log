@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/CMakeTmp
+Change Dir: /home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7b64/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7b64.dir/build.make CMakeFiles/cmTC_d7b64.dir/build
-make[1]: Entering directory '/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d7b64.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d7b64.dir/src.c.o -c /home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d7b64
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7b64.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_d7b64.dir/src.c.o -o cmTC_d7b64 
-/usr/bin/ld: CMakeFiles/cmTC_d7b64.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ffc50/fast && /usr/bin/make  -f CMakeFiles/cmTC_ffc50.dir/build.make CMakeFiles/cmTC_ffc50.dir/build
+make[1]: Entering directory '/home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffc50.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ffc50.dir/src.c.o -c /home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ffc50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc50.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ffc50.dir/src.c.o -o cmTC_ffc50 
+/usr/bin/ld: CMakeFiles/cmTC_ffc50.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_d7b64.dir/build.make:99: cmTC_d7b64] Error 1
-make[1]: Leaving directory '/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_d7b64/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_ffc50.dir/build.make:99: cmTC_ffc50] Error 1
+make[1]: Leaving directory '/home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_ffc50/fast] Error 2
 
 
 Source file was:
@@ -41,20 +41,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/CMakeTmp
+Change Dir: /home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e1123/fast && /usr/bin/make  -f CMakeFiles/cmTC_e1123.dir/build.make CMakeFiles/cmTC_e1123.dir/build
-make[1]: Entering directory '/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e1123.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e1123.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e1123
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1123.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_e1123.dir/CheckFunctionExists.c.o -o cmTC_e1123  -lpthreads 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8ab3a/fast && /usr/bin/make  -f CMakeFiles/cmTC_8ab3a.dir/build.make CMakeFiles/cmTC_8ab3a.dir/build
+make[1]: Entering directory '/home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ab3a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_8ab3a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ab3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ab3a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_8ab3a.dir/CheckFunctionExists.c.o -o cmTC_8ab3a  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_e1123.dir/build.make:99: cmTC_e1123] Error 1
-make[1]: Leaving directory '/home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_e1123/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_8ab3a.dir/build.make:99: cmTC_8ab3a] Error 1
+make[1]: Leaving directory '/home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_8ab3a/fast] Error 2
 
 
 

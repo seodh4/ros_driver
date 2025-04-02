@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ai/work/python/UDP/ros2_ws/src/udp_sender
+CMAKE_SOURCE_DIR = /home/ai/work/python/UDP/ros_driver/src/udp_sender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ai/work/python/UDP/ros2_ws/build/udp_sender
+CMAKE_BINARY_DIR = /home/ai/work/python/UDP/ros_driver/build/udp_sender
 
 # Utility rule file for udp_sender_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/udp_sender_uninstall.dir/compiler_depend.make
 include CMakeFiles/udp_sender_uninstall.dir/progress.make
 
 CMakeFiles/udp_sender_uninstall:
-	/usr/bin/cmake -P /home/ai/work/python/UDP/ros2_ws/build/udp_sender/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ai/work/python/UDP/ros_driver/build/udp_sender/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 udp_sender_uninstall: CMakeFiles/udp_sender_uninstall
 udp_sender_uninstall: CMakeFiles/udp_sender_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/udp_sender_uninstall.dir/clean:
 .PHONY : CMakeFiles/udp_sender_uninstall.dir/clean
 
 CMakeFiles/udp_sender_uninstall.dir/depend:
-	cd /home/ai/work/python/UDP/ros2_ws/build/udp_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ai/work/python/UDP/ros2_ws/src/udp_sender /home/ai/work/python/UDP/ros2_ws/src/udp_sender /home/ai/work/python/UDP/ros2_ws/build/udp_sender /home/ai/work/python/UDP/ros2_ws/build/udp_sender /home/ai/work/python/UDP/ros2_ws/build/udp_sender/CMakeFiles/udp_sender_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ai/work/python/UDP/ros_driver/build/udp_sender && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ai/work/python/UDP/ros_driver/src/udp_sender /home/ai/work/python/UDP/ros_driver/src/udp_sender /home/ai/work/python/UDP/ros_driver/build/udp_sender /home/ai/work/python/UDP/ros_driver/build/udp_sender /home/ai/work/python/UDP/ros_driver/build/udp_sender/CMakeFiles/udp_sender_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/udp_sender_uninstall.dir/depend
 
